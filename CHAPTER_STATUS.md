@@ -1,6 +1,6 @@
 # Chapter Status
 
-현재 저장소에는 다음 챕터 디렉터리가 있습니다.
+현재 브랜치 기준 저장소에는 다음 챕터 디렉터리가 있습니다.
 
 - 01-llm-agent
 - 02-workflow-agent
