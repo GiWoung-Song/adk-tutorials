@@ -1,6 +1,14 @@
-# Common
+# Environment
 .env
-__pycache__/
+venv/
 .venv/
-*.db
 
+# IDE
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Database
+*.db
