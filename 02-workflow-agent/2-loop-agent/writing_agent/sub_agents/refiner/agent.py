@@ -3,7 +3,7 @@ from .tools import exit_loop
 
 refiner_agent = LlmAgent(
     name = "refiner_agent",
-    model = "gemini-2.0-flash",
+    model = "gemini-2.5-flash",
     description = "피드백을 적용하여 글을 수정하거나, 완료 신호가 감지되면 루프를 종료합니다",
     instruction = """
     당신은 창의적인 글쓰기 비서를 맡고 있습니다. 

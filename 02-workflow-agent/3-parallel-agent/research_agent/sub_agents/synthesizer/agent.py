@@ -2,7 +2,7 @@ from google.adk.agents import LlmAgent
 
 synthesis_agent = LlmAgent(
     name = "synthesis_agent",
-    model = "gemini-2.0-flash",
+    model = "gemini-2.5-flash",
     description = "병렬 에이전트 요약을 기반으로 구조호된 리포트를 생성하는 에이전트",
     instruction = """
     당신은 연구 요약을 구조화된 리포트로 결합하는 AI 어시스턴트입니다.

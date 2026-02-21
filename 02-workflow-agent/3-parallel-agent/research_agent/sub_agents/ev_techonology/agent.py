@@ -3,7 +3,7 @@ from google.adk.tools import google_search
 
 ev_technology_agent = LlmAgent(
     name = "ev_technology_agent",
-    model = "gemini-2.0-flash",
+    model = "gemini-2.5-flash",
     description = "전기차 기술을 연구하는 에이전트",
     instruction = """
     당신은 교통 분야 AI 연구 보조입니다.

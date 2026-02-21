@@ -2,7 +2,7 @@ from google.adk.agents import LlmAgent
 
 critic_agent = LlmAgent(
     name = "critic_agent",
-    model = "gemini-2.0-flash",
+    model = "gemini-2.5-flash",
     description = "초안글을 검토하고 필요한 경우 개선 피드백을 제공하거나 완료되었음을 신호합니다",
     instruction = """
     당신은 창의적인 글을 비평하는 AI 비평가입니다. 이야기 초안(일반적으로 2~6문장)을 검토하고, 균형 잡힌 피드백을 제공하세요.

@@ -2,7 +2,7 @@ from google.adk.agents import LlmAgent
 
 code_reviewer_agent = LlmAgent(
     name= "code_reviewer_agent",
-    model= "gemini-2.0-flash",
+    model= "gemini-2.5-flash",
     description= "코드를 리뷰하고 피드백을 제공합니다",
     instruction= """
     당신은 숙련된 Python 코드 리뷰어입니다.
