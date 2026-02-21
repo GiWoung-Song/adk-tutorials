@@ -3,7 +3,7 @@ from google.adk.tools import google_search
 
 carbon_capture_agent = LlmAgent(
     name = "carbon_capture_agent",
-    model = "gemini-2.0-flash",
+    model = "gemini-2.5-flash",
     description = "탄소 포집 방법을 연구하는 에이전트",
     instruction = """
     당신은 기후 솔루션 분야 AI 연구 보조입니다.

@@ -2,7 +2,7 @@ from google.adk.agents import LlmAgent
 
 code_refactor_agent = LlmAgent(
     name= "code_refactor_agent",
-    model= "gemini-2.0-flash",
+    model= "gemini-2.5-flash",
     description= "리뷰 코멘트를 기반으로 코드를 리팩토링합니다",
     instruction= """
 

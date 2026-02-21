@@ -3,7 +3,7 @@ from google.adk.agents import LlmAgent
 STATE_INITIAL_TOPIC = "30년 뒤 미래"
 initial_writer_agent = LlmAgent(
     name = "initial_writer_agent",
-    model = "gemini-2.0-flash",
+    model = "gemini-2.5-flash",
     description = "정해진 주제를 바탕으로 초안 글을 생성합니다",
     instruction = f"""
     당신은 창의적인 이야기 작성을 돕는 AI 비서입니다.

@@ -2,7 +2,7 @@ from google.adk.agents import LlmAgent
 
 code_writer_agent = LlmAgent(
     name= "code_writer_agent",
-    model= "gemini-2.0-flash",
+    model= "gemini-2.5-flash",
     description= "사용자의 요청에 따라 초기 파이썬 코드를 작성합니다",
     instruction= """
     당신은 Python 코드 생성기입니다.  

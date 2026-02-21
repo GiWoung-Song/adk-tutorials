@@ -3,7 +3,7 @@ from google.adk.tools import google_search
 
 renewable_energy_agent = LlmAgent(
     name = "renewable_energy_agent",
-    model = "gemini-2.0-flash",
+    model = "gemini-2.5-flash",
     description = "재생 가능 에너지 소스 연구 에이전트",
     instruction = """
     당신은 재생 가능 에너지 분야의 AI 연구 보조입니다.
