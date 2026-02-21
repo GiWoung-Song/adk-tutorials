@@ -2,7 +2,7 @@ from google.adk.agents import LlmAgent
 
 root_agent = LlmAgent(
     name="welcome_agent",
-    model="gemini-2.0-flash",
+    model="gemini-2.5-flash",
     description="인사하는 에이전트",
     instruction="""
     당신은 사용자를 환영하고 인사하는 에이전트 입니다.
